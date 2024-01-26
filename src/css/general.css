@@ -1,0 +1,35 @@
+/**
+ * Created by Jacob Humston, Emma Rhoden, and Kayden Justice.
+ * All rights reserved.
+ */
+
+@font-face {
+    font-family: Nunito;
+    src: url("/assets/fonts/Nunito.ttf");
+}
+
+:root {
+    --background: rgb(245, 245, 245);
+    --highlight-background: rgb(15, 15, 15);
+    --text: rgb(0, 0, 0);
+    --highlight-text: #c30000;
+    --backwards-highlight-text: rgb(230, 230, 230);
+}
+
+html,
+body {
+    padding: 0px;
+    margin: 0px;
+    background-color: var(--background);
+    color: var(--text);
+    font-family: Nunito, 'Arial';
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--highlight-text);
+}
