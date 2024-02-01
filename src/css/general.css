@@ -5,24 +5,34 @@
 
 @font-face {
     font-family: Nunito;
-    src: url("/assets/fonts/Nunito.ttf");
+    src: url('/assets/fonts/Nunito.ttf');
 }
 
 :root {
-    --background: rgb(245, 245, 245);
-    --highlight-background: rgb(15, 15, 15);
-    --text: rgb(0, 0, 0);
-    --highlight-text: #c30000;
-    --backwards-highlight-text: rgb(230, 230, 230);
+    --primary-accent-color: #324376;
+    --secondary-accent-color: #586ba4;
+    --tertiary-accent-color: #fed766;
+    --quaternary-accent-color: #f5dd90;
+    --quinary-accent-color: #f68e5f;
+    --senary-accent-color: #f76c5c;
+    --background-color: rgb(240, 240, 240);
+    --text-color: rgb(2, 2, 2);
+}
+
+html,
+body,
+button,
+input,
+textarea {
+    font-family: Nunito, 'Arial';
 }
 
 html,
 body {
     padding: 0px;
     margin: 0px;
-    background-color: var(--background);
-    color: var(--text);
-    font-family: Nunito, 'Arial';
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
 
 h1,
@@ -31,5 +41,5 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--highlight-text);
+    color: var(--quinary-accent-color);
 }
