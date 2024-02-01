@@ -2,3 +2,11 @@
  * Created by Jacob Humston, Emma Rhoden, and Kayden Justice.
  * All rights reserved.
  */
+
+#our-mission-header {
+    color: var(--quinary-accent-color);
+}
+
+#about-us-header {
+    color: var(--senary-accent-color);
+}
