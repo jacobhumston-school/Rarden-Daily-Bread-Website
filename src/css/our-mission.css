@@ -3,10 +3,68 @@
  * All rights reserved.
  */
 
+#our-mission-header,
+#about-us-header {
+    margin: 0px;
+    margin-bottom: 10px;
+}
+
 #our-mission-header {
     color: var(--quinary-accent-color);
 }
 
 #about-us-header {
     color: var(--senary-accent-color);
+}
+
+#our-mission-content,
+#about-us-content {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    text-align: center;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+}
+
+#our-mission-content {
+    border-color: var(--quinary-accent-color);
+}
+
+#about-us-content {
+    border-color: var(--senary-accent-color);
+}
+
+#information-content {
+    width: 95%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    margin-top: 50px;
+    justify-content: space-evenly;
+    max-width: 1000px;
+}
+
+#information-content #left,
+#information-content #right {
+    width: 40%;
+}
+
+#information-content #right img {
+    width: 100%;
+    border-radius: 50px;
+}
+
+#our-mission-content p,
+#about-us-content p {
+    font-size: large;
 }

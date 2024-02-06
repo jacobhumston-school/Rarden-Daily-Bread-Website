@@ -2,3 +2,28 @@
  * Created by Jacob Humston, Emma Rhoden, and Kayden Justice.
  * All rights reserved.
  */
+
+.contact-header {
+    text-align: center;
+}
+
+.centered-basic-text {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 17px;
+}
+
+.po-box-header {
+    text-align: center;
+    color: var(--senary-accent-color);
+    padding-top: 10px;
+}
+
+.center-squiggle-div {
+    text-align: center;
+}
+
+.center-squiggle-image {
+    width: 50px;
+}
