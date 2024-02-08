@@ -32,21 +32,16 @@
     opacity: 0.5;
 }
 
-
-.circle-image-div
-{
+.circle-image-div {
     text-align: center;
 }
 
-.small-circle-image
-{
+.small-circle-image {
     border-radius: 360px;
     width: 50px;
-    
 }
 
-.large-circle-image
-{
+.large-circle-image {
     border-radius: 360px;
     width: 150px;
 }
