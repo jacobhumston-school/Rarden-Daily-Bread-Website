@@ -1,0 +1,27 @@
+#footer {
+    display: block;
+    background-color: var(--primary-accent-color);
+    color: var(--quinary-accent-color);
+    overflow: hidden;
+    margin: 0px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+#footer #footer-header {
+    color: var(--tertiary-accent-color);
+    margin: 0px;
+}
+
+#footer #footer-copyright {
+    color: var(--quaternary-accent-color);
+    background-color: var(--secondary-accent-color);
+    display: inline-block;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-weight: bold;
+    border-radius: 15px;
+    margin: 0px;
+    margin-top: 10px;
+}
