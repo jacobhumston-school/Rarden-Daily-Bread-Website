@@ -1,10 +1,13 @@
 {
     "dependencies": {
+        "bcrypt": "^5.1.1",
         "express": "^4.18.2",
+        "mysql2": "^3.9.1",
         "prettier": "^3.2.4"
     },
     "type": "module",
     "scripts": {
-        "format": "npx prettier . --write"
+        "format": "npx prettier . --write",
+        "start": "node src/server/main.js"
     }
 }

@@ -3,7 +3,7 @@
  * All rights reserved.
  */
 
-console.time("Load Time")
+console.time('Load Time');
 
 function main() {
     document.title = `${document.title} | Rarden Daily Bread`;
@@ -17,7 +17,7 @@ function main() {
         }
     }
 
-    console.timeEnd("Load Time")
+    console.timeEnd('Load Time');
 }
 
 window.addEventListener('load', main);

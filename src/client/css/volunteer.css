@@ -1,0 +1,47 @@
+/**
+ * Created by Jacob Humston, Emma Rhoden, and Kayden Justice.
+ * All rights reserved.
+ */
+
+.volunteer-header {
+    text-align: center;
+    padding-top: 5px;
+}
+
+.centered-basic-text {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 17px;
+}
+
+.filler-header {
+    text-align: center;
+    color: var(--senary-accent-color);
+    padding-top: 10px;
+}
+
+.center-squiggle-div {
+    text-align: center;
+}
+
+.center-squiggle-image {
+    padding-top: 15px;
+    width: 180px;
+    height: 25px;
+    opacity: 0.5;
+}
+
+.circle-image-div {
+    text-align: center;
+}
+
+.small-circle-image {
+    border-radius: 360px;
+    width: 50px;
+}
+
+.large-circle-image {
+    border-radius: 360px;
+    width: 150px;
+}
