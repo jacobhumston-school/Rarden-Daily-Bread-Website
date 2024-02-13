@@ -3,19 +3,9 @@
  */
 
 import express from 'express';
-import mysql from 'mysql2/promise';
 import { Account } from './database.js';
-import fs from 'node:fs';
 
-const database = await mysql.createConnection({
-    host: 'localhost',
-    user: 'websiteUSER',
-    password: fs.readFileSync('.db-pass', 'utf-8'),
-});
-
-const accountDatabase = new Account(database);
-
-console.log('Database connected...');
+const accountDatabase = new Account();
 
 const app = express();
 

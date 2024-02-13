@@ -9,18 +9,14 @@
  * @property {string[]} Permissions
  */
 
-import mysql from 'mysql2/promise';
-import 'bcrypt';
+import * as bcrypt from 'bcrypt';
+import * as db from 'node-json-db';
 
 export class Account {
-    /**
-     * @param {mysql.Connection} connection
-     */
-    constructor(connection) {
-        this.connection = connection;
+    constructor() {
+        this.database = new db.JsonDB(new db.Config('db/accounts.json', true, '/'));
+        this.database.load();
     }
 
-    async getAccounts() {
-
-    }
+    async getAccounts() {}
 }
