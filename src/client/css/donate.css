@@ -24,6 +24,13 @@
     padding-top: 15px;
 }
 
+.don-centered-basic-text {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-size: 17px;
+}
+
 .centered-basic-text {
     text-align: center;
     margin-left: 15%;

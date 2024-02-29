@@ -8,6 +8,7 @@
     padding-top: 5px;
 }
 
+
 .centered-basic-text {
     text-align: center;
     margin-left: 25%;
@@ -44,4 +45,10 @@
 .large-circle-image {
     border-radius: 360px;
     width: 150px;
+}
+
+.small-notice
+{
+    text-align: center;
+    font-size: 12px;
 }

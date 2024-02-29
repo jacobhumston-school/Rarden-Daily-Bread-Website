@@ -5,10 +5,12 @@
 
 .pantry-central-div {
     text-align: center;
+    padding-top: 8px;
 }
 
 .pantry-central-image {
-    width: 50%;
+    width: 25%;
+    border-radius: 15px;
 }
 
 .pantry-header {
@@ -21,6 +23,14 @@
     margin-left: 15%;
     margin-right: 15%;
     font-size: 17px;
+}
+
+.bold-centered-basic-text {
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-size: 17px;
+    font-weight: 600;
 }
 
 .menu-header {
@@ -39,3 +49,4 @@
     height: 25px;
     opacity: 0.5;
 }
+
